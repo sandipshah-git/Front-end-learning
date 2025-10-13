@@ -12,9 +12,3 @@ console.log(`Hello, ${names}!`); //   ` ` -> use backticks when you need variabl
 
 
 
-const sym1 = Symbol();
-const sym2 = Symbol("foo");
-const sym3 = Symbol("foo");
-
-
-console.log(sym2);

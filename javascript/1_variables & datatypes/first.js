@@ -1,5 +1,6 @@
 // variables........
 
+
 // let
 
 let a = 10;
@@ -68,3 +69,14 @@ console.log(numbers);    // Output: [1, 2, 3, 4]
 
 // Attempting to reassign the variable will throw an error
 numbers = []; // Throws TypeError: Assignment to constant variable.
+
+
+
+// symbol data-types
+
+const sym1 = Symbol();
+const sym2 = Symbol("foo");
+const sym3 = Symbol("foo");
+
+
+console.log(sym2);
