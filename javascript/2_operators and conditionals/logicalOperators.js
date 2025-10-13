@@ -10,6 +10,12 @@
 // console.log(ans);
 
 
+// short circuiting
+
+// console.log(false || 3 || 22 || 12 );
+
+
+
 
 
 // let alert2;
@@ -21,6 +27,15 @@
 // console.log(!alert3);      // true
 // console.log(!mySum);       // false
 
+
+
+// ternary operators
+
+//  condition ? expressionIfTrue : expressionIfFalse;
+
+// let myage = 21;
+
+// (myage >= 18) ? (console.log("Can Drive")) : (console.log("Cannot Drive"));
 
 
 
