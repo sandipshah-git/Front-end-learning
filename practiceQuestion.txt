@@ -1,0 +1,2 @@
+1. shallo copy
+2. deep copy
