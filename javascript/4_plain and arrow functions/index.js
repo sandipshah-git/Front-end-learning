@@ -13,7 +13,7 @@
 // printNumber(4); // argument is 4       
  
 
-// function Expression
+// function Expression ( can also store function in variable)
 
 // const functionName = function (a, b){
 //     return a * b;

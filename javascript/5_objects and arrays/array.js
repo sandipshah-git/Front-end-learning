@@ -7,3 +7,4 @@ console.log(arr);
 // array constructor
 let brr = new Array(3, "ram ", true, 'sita',4);
 console.log(brr);
+
