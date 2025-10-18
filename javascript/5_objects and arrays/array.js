@@ -49,3 +49,22 @@
 // console.log(result);
 
 
+// let arr = [2,5,90,24,10, 'sandip',true,"shah",false,null];
+
+// let result = arr.filter((value) => {
+//     if (typeof(value) === 'string'){
+//         return true;
+//     }else false;
+// } );
+// console.log(result);
+
+      //   reduce 
+
+// let arr = [10, 20 , 30 , 40, 50]; // logic -> if acc. is 0 then all values are adding one by one (if u don't initialize acc as 0 then automatically start with first value as 10 and adding others value in it)
+
+// let ans = arr.reduce( (acc,curr) =>{
+//     return acc + curr; // accumulator and current value
+// }, 0); // initialize acc. value as 0
+
+// console.log(ans);  //  150
+
