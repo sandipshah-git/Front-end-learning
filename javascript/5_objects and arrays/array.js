@@ -37,14 +37,14 @@
 
 // let arr = [2,10,23,13,50,34,26];
 
-// let result = arr.filter((Number)=>{
-//     // if(Number % 2 === 0){
+// let result = arr.filter((number)=>{  
+//     // if(number % 2 === 0){
 //     //     return true;
 //     // }
 //     // else{
 //     //     return false;
 //     // }
-//     return Number % 2 ==0;
+//     return number % 2 ==0;
 // });
 // console.log(result);
 
@@ -67,5 +67,77 @@
 // }, 0); // initialize acc. value as 0
 
 // console.log(ans);  //  150
+
+//  sorting
+// const arr = [2, 7, 1, 0, 8];
+// console.log(arr.indexOf(8));
+// // arr.sort();
+// arr.sort((a , b) => b - a);  //  for decending ( a - b is for accending)
+
+// console.log(arr);
+
+
+//  find()
+
+// let array = [3, 6, 1, 8, 9];
+// let ans = array.find((num)=>{
+//      return num == 8;
+// } );
+// console.log(ans);
+
+
+// const users = [{ id: 1, name: "Ram" },  { id: 2, name: "Shyam" },  { id: 3, name: "Hari" } ];
+// const user = users.find((u) => {
+//     return u.name === "Shyam"
+// });
+// // const user = users.find((u) =>
+// //      u.name === "Shyam"
+// // );
+
+// console.log(user);  // Output: { id: 2, name: "Shyam" }
+
+
+
+//   for each loop 
+
+// let arr = [10, 20, 30];
+// arr.forEach((value , index)=>{
+//     console.log("Number : ", value , "Index : ",index);
+// });
+
+// for-in loop
+
+// let obj = {
+//     Name : "sandip",
+//     // "full name" : "sandip shah" // if variable has space the use " " ("full name")
+//     age : 23,
+//     wight : 62,
+//     height : "5' 11 inch ",
+//     greet : function( ){
+//         console.log("Namaste");
+//     }
+// };
+
+// for(let key in obj){
+//     // console.log(key);  // key prints keys : means data types
+//     console.log(key , " ", obj[key]) // obj [key] is print values
+// }
+
+
+//  for-of loop
+
+// let arr = [10, 20, 30, 40];
+// for(let value of arr){
+//     console.log(value);
+// }
+
+// let fullName = "sandip shah";
+// for(let val of fullName){
+//     console.log(val); // print every letter seperatly
+// }
+
+
+
+//   arrays with function
 
 
