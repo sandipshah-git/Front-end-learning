@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learning js</title>
+</head>
+<body>
+    <h1 id="first">Welcome to my Heart</h1>
+
+    <h2 class="code">Welcome to sandip ko duniya</h2>
+
+    <h3>The name Sandip Shah</h3>
+    
+    <script>
+//Selecting the element with id as "first"
+    let element = document.getElementById("first");
+    let element2 = document.getElementsByClassName('code');
+
+//Now changing the background color of the selected HTML element
+    element.style.backgroundColor = "red";
+    element2[0].style.backgroundColor = "green";  // getElementsByClassName() returns a collection (array-like list) of elements, not a single element. that why there need [0] 
+    </script>
+
+
+     <!-- <h1 id="idname">Welcome to world</h1>
+
+    <p>Welcome to Syandix1</p>
+    <p>Welcome to Syandix2</p>
+    <p>Welcome to Syandix3</p>
+    <p>Welcome to Syandix4</p>
+    <p>Welcome to Syandix5</p>
+
+    <h3>Welcome to Syandix</h3>
+    
+    <script>
+    //Let's Select the elements with <p></p> tag
+        let element = document.getElementsByTagName('p');
+        // console.log(element); // Returns an array
+
+        element[1].style.backgroundColor = "lightgreen";
+        element[3].style.backgroundColor = "yellow";
+    </script>
+ -->
+
+
+
+</body>
+</html>
