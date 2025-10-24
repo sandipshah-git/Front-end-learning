@@ -8,28 +8,29 @@
 <body>
     <div id="myPara">
         This element     has <span>spacing</span>
-
         <p style="display: none">This has a property Hidden</p>
     </div>
-
-
 
     <script>
       //Selecting the element with id "myPara"
           let myElement = document.getElementById("myPara");
       
-          //Now retrieving innerText of the selected element
-          let content = myElement.innerText;
+          //Now retrieving outerHTML of the selected element
+          let content = myElement.outerHTML;
       
           console.log(content);
       
           /* Output:
-          This element has spacing
+          <p id="myPara">
+              This element     has <span>spacing</span>
+             <p style="display: none">This has a property Hidden</p>
+          </p>
           */
       
       //Let's try to change the content of selected element
-          let newPara = 'Hiii';
-          myElement.innerText = newPara;
-      </script>
+      // Setting outerHTML content (replaces the entire element)
+          let newPara = "hello";    //   '<div>Hiii</div>';
+          myElement.outerHTML = newPara;
+    </script>
 </body>
 </html>
