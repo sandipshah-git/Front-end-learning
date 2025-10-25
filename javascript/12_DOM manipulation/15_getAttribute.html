@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo" title="Example Paragraph">This is a paragraph.</p>
+
+    <button onclick="getAttributeValue()">Get Attribute Value</button>
+
+    <script>
+        // syntax of get attribute
+        // var attributeValue = element.getAttribute(attributeName);
+
+
+        function getAttributeValue() {
+            var para = document.getElementById("demo");
+            var titleAttributeValue = para.getAttribute("title");
+
+            alert("The value of the 'title' attribute is: " + titleAttributeValue);
+
+            //Output : The value of the 'title' attribute is: Example Paragraph
+        }
+    </script>
+</body>
+</html>

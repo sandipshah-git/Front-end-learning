@@ -1,2 +1,4 @@
 1. shallo copy
 2. deep copy
+
+try & check outer html of insertAdjacentElement
