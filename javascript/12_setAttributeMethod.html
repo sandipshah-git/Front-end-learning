@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <div id="sandip">
+        Hello Guys, Welcome to Syandix!
+    </div>
+</body>
+</html>
+
+<script>
+    // syntax 
+    // element.setAttribute(attributeName, attributeValue);
+
+    //Selecting the element with id "codehelp"
+    let myElement = document.getElementById("sandip");
+
+    //Now Let's try to add a 'class = helpcode' to myElement using setAttribute() method...
+    myElement.setAttribute("class", "shah");
+
+    //Now Let's try to add a "background color = red" to my Element using setAttribute() method...
+    myElement.setAttribute("style", "background-color:red;")  //   It is possible to add a style attribute with a value to an element, but it is not recommended because it can overwrite other properties in the style attribute.
+
+    let sand = document.getElementsByClassName('shah');
+    // sand[0].setAttribute("style", "color:green;");
+
+    console.log(sand[0]);
+    // output
+    // <div id="sandip" class="shah" style="background-color:red;"> Hello Guys, Welcome to Syandix! </div>
+</script>
+</body>
+</html>
