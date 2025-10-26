@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <p id="fpara">hello world</p>
+    </div>
+
+    <script>
+
+        // monitorEvents(document);   if u run this in console on browser and then if u cllick on website then it shows what you activities action happens
+
+        // syntax of addEventLIstner
+        //  element.addEventListner('event-type', function)
+
+        function changeText(){
+            let element = document.getElementById('fpara');
+            element.textContent = 'hello duniya';
+        }
+
+        let element = document.getElementById('fpara');
+
+        element.addEventListener('click', changeText);
+
+        // element.removeEventListener('click', changeText);
+    </script>
+</body>
+</html>
